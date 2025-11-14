@@ -1,0 +1,13 @@
+{
+  "name": "voice-room-app",
+  "version": "1.0.0",
+  "description": "Multi-room audio chat with 10-user limit per room",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  }
+}
