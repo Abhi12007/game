@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.screen {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    width: 94%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0c72d1;
+}
+
+/* Room Screen */
+#room-title {
+    margin-bottom: 20px;
+}
+
+#profile-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.column {
+    width: 45%;
+}
+
+.profile {
+    background: #222;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    background: #333;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#controls button {
+    width: 45%;
+    margin: 5px;
+}
