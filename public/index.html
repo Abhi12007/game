@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Room App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- JOIN SCREEN -->
+    <div id="join-screen" class="screen">
+        <h2>Join a Room</h2>
+        <input id="nameInput" type="text" placeholder="Enter your name" />
+        <input id="roomInput" type="text" placeholder="Enter room code" />
+        <button id="joinBtn">Join</button>
+    </div>
+
+    <!-- ROOM SCREEN -->
+    <div id="room-screen" class="screen hidden">
+        <h2 id="room-title">Room:</h2>
+
+        <!-- Profile grid -->
+        <div id="profile-grid">
+            <div class="column" id="left-column"></div>
+            <div class="column" id="right-column"></div>
+        </div>
+
+        <!-- Controls -->
+        <div id="controls">
+            <button id="muteBtn">Mute</button>
+            <button id="exitBtn">Exit Room</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
